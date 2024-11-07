@@ -14,4 +14,4 @@ from django.http import HttpResponse
 #     return HttpResponse('Hello Cuyyy ');
 
 def salam(request):
-    return render(request, 'hello.html');
+    return render(request, 'hello.html', {'asma' : 'Rohmat'});
